@@ -18,3 +18,10 @@ on:
         required: false
         default: "The Octoverse"
 permissions: write-all
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo "Hello $!"
+        echo "- in $!"
