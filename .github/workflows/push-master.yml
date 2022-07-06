@@ -25,3 +25,46 @@ jobs:
     - run: |
         echo "Hello $!"
         echo "- in $!"
+  say_hellos:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo "Hello $!"
+        echo "- in $!"
+  say_helloss:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo "Hello $!"
+        echo "- in $!"
+  say_hellosss:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo "Hello $!"
+        echo "- in $!"
+  say_hellosssssss:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo "Hello $!"
+        echo "- in $!"
+        
+  say_hellosssss:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo "Hello $!"
+        echo "- in $!"
+  say_hellossssss:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo "Hello $!"
+        echo "- in $!"
+  say_hellossssssss:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo "Hello $!"
+        echo "- in $!"
