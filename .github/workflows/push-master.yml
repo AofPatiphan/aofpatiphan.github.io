@@ -8,15 +8,6 @@ on:
     branches:
       - master
   workflow_dispatch:
-    inputs:
-      name:
-        description: "Person to greet"
-        required: true
-        default: "Mona the Octocat"
-      home:
-        description: "location"
-        required: false
-        default: "The Octoverse"
 permissions: write-all
 jobs:
   say_hello:
