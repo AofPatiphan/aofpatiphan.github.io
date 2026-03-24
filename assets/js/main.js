@@ -2,7 +2,7 @@
   "use strict";
 
   // Preloader
-  $(window).on("load", function () {
+  function removePreloader() {
     if ($("#preloader").length) {
       $("#preloader")
         .delay(10)
@@ -10,7 +10,10 @@
           $(this).remove();
         });
     }
-  });
+  }
+  $(window).on("load", removePreloader);
+  // Fallback: force remove preloader after 3s in case images fail to load
+  setTimeout(removePreloader, 3000);
 
   // Hero typed
   if ($(".typed").length) {
